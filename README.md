@@ -1,0 +1,1 @@
+Maxwell Scientific Publication -- is an international organization dedicated to advancing science around the world by serving as a Publisher. Maxwellsci, launched in June 2010, includes maxwellsci's portfolio of peer-reviewed fully open access journals across all areas of science.
