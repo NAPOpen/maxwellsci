@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Maxwell Science | North American Publication Corp.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+    :root {
+            --primary-color: #2056B0;
+            --secondary-color: #4980B8;
+            --text-dark: #0a3647;
+            --bg-light: #f8fafc;
+            --alert-bg: rgba(13, 202, 240, 0.15);
+            --alert-border: #0dcaf0;
+        }
+        /* Top Accent Bar */
+        .border-color {
+            border-color: #2056B0 !important;
+        }
+        nav a:hover {
+            color: #2056B0 !important;
+            font-weight: bold !important;
+        }
+        /* Main Body Content */
+        .main-content {
+            padding: 1.5rem;
+        }
+
+        /* Alert/Notice Container */
+        .alert-div {
+            padding: 1.25rem;
+            background-color: var(--alert-bg);
+            border-left: 4px solid var(--alert-border);
+            border-radius: 0 4px 4px 0;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            font-size: 1rem;
+        }
+
+        .alert-div a {
+            color: var(--primary-color);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        .alert-div a:hover {
+            color: var(--secondary-color);
+        }
+
+        /* Featured Banner Styling */
+        .img-div {
+            text-align: center;
+            padding: 10px 75px;
+        }
+
+        .img-div a {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .img-div a:hover {
+            transform: scale(1.015);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+
+        .img-div img {
+            display: block;
+        }
+
+        /* Footer Layout */
+        footer {
+            background-color: var(--secondary-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        footer .footer-links {
+            margin-bottom: 0.75rem;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            transition: text-decoration 0.2s ease;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer .copyright {
+            opacity: 0.9;
+            display: block;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="white-skin d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom border-5 border-color">
+    <div class="container-fluid">
+      <a href="index.php" target="_parent" class="pe-5">
+          <img src="images/maxx1.jpg" alt="Maxwell Science Logo" width="314" height="50">
+      </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://guidelines.napopen.com/" target="_blank">Information & Instructions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.napopen.com/journals" target="_blank">Journal list</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.napopen.com/user/login" target="_blank">My Account</a>
+              </li>
+            </ul>
+          </div>
+    </div>
+  </nav>
+  <div class="container">
+      <main class="main-content">
+          <div class="alert-div">
+              Our website has a new address! Maxwell Scientific Publication Corp. (MaxwellSci.com) is now
+              North American Publication Corp. (<a href="http://napopen.com" target="_blank">NAPOpen.com</a>).
+              All journals and services remain available at the new domain.
+          </div>
+          <div class="img-div">
+              <a href="https://www.napopen.com/web/call-for-paper" title="Submit your research to NAPOpen">
+                  <img alt="Call For Paper" src="images/horizontal-pc.webp" width="800" height="500">
+              </a>
+          </div>
+      </main>
+  </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="footer-links">
+          <a href="index" target="_parent">Home</a> |
+          <a href="https://www.napopen.com/web/contact-us" target="_parent">Contact us</a> |
+          <a href="https://www.napopen.com/web/privacyPolicy" target="_parent">Privacy Policy</a>
+      </div>
+      <span class="copyright">
+          Copyright &copy; <?php echo date("Y"); ?> MAXWELL Scientific Publication Corp. All rights reserved.
+      </span>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
